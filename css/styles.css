@@ -28,3 +28,6 @@ dialog{width:min(900px,94vw);max-height:90vh;background:var(--bg);color:var(--t)
 #tour{position:fixed;inset:0;z-index:98;display:none}#tour.on{display:block}#spot{position:absolute;border-radius:8px;box-shadow:0 0 0 9999px #000a;border:2px solid #38bdf8}
 #coach{position:absolute;width:min(340px,92vw);background:var(--p);border:2px solid #38bdf8;border-radius:8px;padding:.8rem}.arr{font-size:1.6rem;color:#38bdf8;line-height:1}
 .flash{outline:3px solid #38bdf8}
+.flow button.on{border-color:#38bdf8;box-shadow:0 0 10px #38bdf8}.warnb{background:#b45309}
+#dc{position:relative}#dc h2{padding-right:2.5rem;margin-top:0}.x{position:absolute;top:0;right:0;padding:.2rem .6rem}
+input:focus,select:focus,textarea:focus,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:none;box-shadow:0 0 0 2px rgba(56,189,248,.45);border-color:#38bdf8}
