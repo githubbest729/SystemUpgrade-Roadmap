@@ -1,0 +1,17 @@
+:root{--bg:#f1f5f9;--p:#fff;--t:#0f172a;--m:#475569;--a:#0369a1;--b:#cbd5e1}
+@media(prefers-color-scheme:dark){:root{--bg:#0f172a;--p:#1e293b;--t:#e2e8f0;--m:#94a3b8;--a:#38bdf8;--b:#334155}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 "Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--t)}
+header{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;padding:.7rem 1rem;background:#0f172a;color:#e2e8f0;border-bottom:3px solid #0284c7}
+header h1{font-size:1.1rem;margin:0;flex:1}header img{height:28px;vertical-align:middle;margin-right:.5rem}
+.badge{padding:.1rem .6rem;border-radius:99px;background:#166534;font-size:.8rem}.badge.off{background:#991b1b}
+nav{display:flex;gap:.3rem;padding:.5rem 1rem;overflow-x:auto}nav button{background:none;border:0;color:var(--m);padding:.5rem .9rem;font:inherit;border-bottom:3px solid transparent;cursor:pointer}nav button.on{color:var(--a);border-color:var(--a);font-weight:600}
+main{padding:1rem;max-width:1200px;margin:auto}section{display:none}section.on{display:block}
+.bar{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+input,select,textarea,button{font:inherit;color:var(--t);background:var(--p);border:1px solid var(--b);border-radius:6px;padding:.4rem .6rem}
+button{cursor:pointer}button.pri{background:#0284c7;color:#fff;border-color:#0284c7}
+:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+.tw{overflow-x:auto;background:var(--p);border:1px solid var(--b);border-radius:6px}table{border-collapse:collapse;width:100%}th,td{padding:.5rem .7rem;text-align:left;border-bottom:1px solid var(--b);white-space:nowrap}th{cursor:pointer;color:var(--m)}
+.st{padding:.1rem .5rem;border-radius:4px;font-size:.8rem;color:#fff}.Healthy,.Upgraded{background:#15803d}.Tuning{background:#a16207}.Upgrade{background:#c2410c}.Critical{background:#b91c1c}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;background:var(--p);padding:1rem;border:1px solid var(--b);border-radius:6px;margin-bottom:1rem}form label{display:flex;flex-direction:column;font-size:.85rem;color:var(--m)}form .w{grid-column:1/-1}
+.card{background:var(--p);border:1px solid var(--b);border-left:5px solid #0284c7;border-radius:6px;padding:.8rem 1rem;margin-bottom:.7rem}.card h3{margin:0 0 .3rem}.sc{float:right;font-size:1.4rem;font-weight:700;color:var(--a)}
+.m{color:var(--m);font-size:.9rem}
